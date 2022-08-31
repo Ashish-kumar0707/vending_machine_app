@@ -1,0 +1,70 @@
+.contentHeader {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiG0WdLTi97PpGj5UWTHfLaaH-oaSIS_-KLg&usqp=CAU);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 35%;
+	position: relative;
+	/* opacity:0.5; */
+}
+
+.contentHeader h1 {
+	/* color: white; */
+	color:#2f3437;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content-section {
+	padding-top: .85em;
+}
+
+.pictures {
+	background-color: #f4a460;
+}
+
+.off-canvas,
+.reveal {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0d72c+0,cad170+100 */
+background: #e0d72c; /* Old browsers */
+background: -moz-linear-gradient(top, #e0d72c 0%, #cad170 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e0d72c 0%,#cad170 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e0d72c 0%,#cad170 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.button {
+	background: lightsteelblue;
+}
+
+.menu > li > a {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.menu > li > a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.icons {
+	font-size: .45rem;
+}
+
+.icons > li > a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 639px) {
+	.codepen {
+		padding-right: .2rem
+	}
+	.twitter {
+		padding-right: 1.1rem;
+	}
+}
